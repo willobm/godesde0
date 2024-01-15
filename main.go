@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/willobm/godesde0/ejercicios"
-)
+import "github.com/willobm/godesde0/teclado"
 
 func main() {
 	// estado, texto := variables.ConveritoaTexto(100)
@@ -28,6 +24,8 @@ func main() {
 	// default:
 	// 	fmt.Printf("%s \n", os)
 	// }
-	entero, mensaje := ejercicios.ConviertoaEntero("hola")
-	fmt.Printf("El valor %d %s \n", entero, mensaje)
+	// entero, mensaje := ejercicios.ConviertoaEntero("hola")
+	// fmt.Printf("El valor %d %s \n", entero, mensaje)
+
+	teclado.IngresoNumeros()
 }
