@@ -1,6 +1,8 @@
 package main
 
-import "github.com/willobm/godesde0/teclado"
+import (
+	"github.com/willobm/godesde0/ejercicios"
+)
 
 func main() {
 	// estado, texto := variables.ConveritoaTexto(100)
@@ -27,5 +29,8 @@ func main() {
 	// entero, mensaje := ejercicios.ConviertoaEntero("hola")
 	// fmt.Printf("El valor %d %s \n", entero, mensaje)
 
-	teclado.IngresoNumeros()
+	// teclado.IngresoNumeros()
+	// iteraciones.Iterar()
+	ejercicios.TablaNumerica()
+
 }
