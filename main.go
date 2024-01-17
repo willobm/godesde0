@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/willobm/godesde0/ejercicios"
-)
+import "github.com/willobm/godesde0/files"
 
 func main() {
 	// estado, texto := variables.ConveritoaTexto(100)
@@ -31,6 +29,8 @@ func main() {
 
 	// teclado.IngresoNumeros()
 	// iteraciones.Iterar()
-	ejercicios.TablaNumerica()
-
+	// fmt.Println(ejercicios.TablaNumerica())
+	// files.GrabaTabla()
+	// files.SumaTabla()
+	files.LeoArchivo()
 }
