@@ -1,6 +1,6 @@
 package main
 
-import "github.com/willobm/godesde0/funciones"
+import "github.com/willobm/godesde0/arreglos_slices"
 
 func main() {
 	// estado, texto := variables.ConveritoaTexto(100)
@@ -35,5 +35,8 @@ func main() {
 	// files.LeoArchivo()
 	// funciones.Calculos()
 	// funciones.LLamarClosure()
-	funciones.Exponencia(3)
+	// funciones.Exponencia(3)
+	// arreglos_slices.MuestroArreglo()
+	// arreglos_slices.MostrarSlices()
+	arreglos_slices.Capacidad()
 }
