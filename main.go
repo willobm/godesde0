@@ -1,6 +1,6 @@
 package main
 
-import "github.com/willobm/godesde0/arreglos_slices"
+import "github.com/willobm/godesde0/mapas"
 
 func main() {
 	// estado, texto := variables.ConveritoaTexto(100)
@@ -38,5 +38,6 @@ func main() {
 	// funciones.Exponencia(3)
 	// arreglos_slices.MuestroArreglo()
 	// arreglos_slices.MostrarSlices()
-	arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
