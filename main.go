@@ -1,6 +1,6 @@
 package main
 
-import "github.com/willobm/godesde0/mapas"
+import "github.com/willobm/godesde0/users"
 
 func main() {
 	// estado, texto := variables.ConveritoaTexto(100)
@@ -39,5 +39,6 @@ func main() {
 	// arreglos_slices.MuestroArreglo()
 	// arreglos_slices.MostrarSlices()
 	// arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+	users.AltaUsuarios()
 }
