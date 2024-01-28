@@ -1,6 +1,9 @@
 package main
 
-import "github.com/willobm/godesde0/users"
+import (
+	e "github.com/willobm/godesde0/ejer_interfaces"
+	"github.com/willobm/godesde0/modelos"
+)
 
 func main() {
 	// estado, texto := variables.ConveritoaTexto(100)
@@ -40,5 +43,11 @@ func main() {
 	// arreglos_slices.MostrarSlices()
 	// arreglos_slices.Capacidad()
 	// mapas.MostrarMapas()
-	users.AltaUsuarios()
+	// users.AltaUsuarios()
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
+
 }
