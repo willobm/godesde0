@@ -1,9 +1,6 @@
 package main
 
-import (
-	e "github.com/willobm/godesde0/ejer_interfaces"
-	"github.com/willobm/godesde0/modelos"
-)
+import "github.com/willobm/godesde0/defer_panic"
 
 func main() {
 	// estado, texto := variables.ConveritoaTexto(100)
@@ -44,10 +41,11 @@ func main() {
 	// arreglos_slices.Capacidad()
 	// mapas.MostrarMapas()
 	// users.AltaUsuarios()
-	Pedro := new(modelos.Hombre)
-	e.HumanosRespirando(Pedro)
+	// Pedro := new(modelos.Hombre)
+	// e.HumanosRespirando(Pedro)
 
-	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
-
+	// Maria := new(modelos.Mujer)
+	// e.HumanosRespirando(Maria)
+	// defer_panic.VemosDefer()
+	defer_panic.EjemploPani()
 }
