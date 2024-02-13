@@ -9,9 +9,9 @@ type User struct {
 	Status   bool
 }
 
-func (this *User) AddUser(id int, name string, createAt time.Time, status bool) {
-	this.Id = id
-	this.Name = name
-	this.CreateAt = createAt
-	this.Status = status
+func (usuario *User) AddUser(id int, name string, createAt time.Time, status bool) {
+	usuario.Id = id
+	usuario.Name = name
+	usuario.CreateAt = createAt
+	usuario.Status = status
 }

@@ -5,5 +5,5 @@ type Humano interface {
 	Pensar()
 	Comer()
 	Sexo() string
-	// Estavivo()
+	Estavivo() bool
 }

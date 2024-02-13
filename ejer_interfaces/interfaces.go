@@ -7,6 +7,5 @@ import (
 )
 
 func HumanosRespirando(hu interfaces.Humano) {
-	hu.Respirar()
-	fmt.Printf("Soy un/a %s, y estoy respirando \n", hu.Sexo())
+	fmt.Printf("Soy un/a %s, estoy respirando porque estoy vivo?:%t \n", hu.Sexo(), hu.Estavivo())
 }
