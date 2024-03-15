@@ -1,6 +1,10 @@
 package main
 
-import "github.com/willobm/godesde0/defer_panic"
+import (
+	"fmt"
+
+	"github.com/willobm/godesde0/goroutines"
+)
 
 func main() {
 	// estado, texto := variables.ConveritoaTexto(100)
@@ -47,5 +51,12 @@ func main() {
 	// Maria := new(modelos.Mujer)
 	// e.HumanosRespirando(Maria)
 	// defer_panic.VemosDefer()
-	defer_panic.EjemploPani()
+	//defer_panic.EjemploPani()
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLentooo("Wilson Flores", canal1)
+	defer func() {
+		<-canal1
+	}()
+	fmt.Println("Estoy aquí")
+
 }
